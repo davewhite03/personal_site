@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*  top container*/
+.top-container{
+   background-color: black;
+    color:white;
+    
+    display: flex;
+   text-align: center;
+   flex-direction: column;
+
+}
+
+.top-container h1{
+
+   
+   color: red;
+   font-family: 'Indie Flower',cursive;
+}
+.top-container h2{
+   
+    font-family: 'Amatic SC',cursive;
+}
+.top-container h3{
+    font-family:'Dongle';
+}
+
+.earth{
+    filter: drop-shadow(0 -.5rem 0.5rem rgb(20, 107, 220));
+    margin: 0 auto;
+    height: 60%;
+    width: 60%;
+}
+.star-1{
+    filter: drop-shadow(0 0 0.5rem rgb(20, 107, 220));
+    
+    margin:0 0 0 80%;
+    height:10%;
+    width:10%;
+    
+    
+}
+.star-2{
+    filter: drop-shadow(0 0 0.5rem rgb(20, 107, 220));
+    margin:0 0 0 10%;
+    height:10%;
+    width:10%;
+}
+.astro{
+    margin: 0 auto 0 auto;
+     
+    
+    animation: floating 3s ease-in both infinite;
+ }
+/*  top container*/
+
+
+/*  middle container*/
+.middle-container{
+    font-family:'Dongle';
+    text-align: center;
+    font-size: 200%;
+    
+    margin: 2rem auto 0 auto ;
+}
+.middle-container h2{
+    font-family: 'Amatic SC',cursive;
+}
+
+.middle-container h3{
+   display: inline-block;
+   font-family: 'Amatic SC',cursive;
+
+}
+.head-shot{
+    
+    margin-top: 0 auto;
+    height: 20%;
+    width:20%;
+}
+.img-size{
+    display: inline-block;
+   
+    height:15%;
+    width:15%;
+}
+.skills{
+    display: inline-block;
+    height: 20%;
+    
+}
+.skills h3{
+   
+}
+.hobbies{
+    display: inline-block;
+}
+.hobbies h3{
+   
+}
+.moon{
+  float:left;
+    margin:10% 0 0 20%;
+   
+   
+}
+.saturn{
+    float: right;
+    margin: 10% 20% 0 0;
+    
+}
+
+
+
+
+/*  middle container*/
+
+
+/*  bottom container*/
+.bottom-container{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+.port-git{ background-image: url('../images/git.png');
+    background-size: cover;
+  background-color:#DC33FF;
+  height: 2rem;
+  width: 2rem;
+  border: .1rem solid purple;
+  border-radius:25rem;
+ 
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 1);
+}
+
+.port-git:hover{
+    background-color: white;
+    border: .1rem solid #DC33FF;
+  }
+/*  bottom container*/
+
+
+
+
+/* animation*/
+@keyframes floating{
+    0%{
+        transform: translateY(0);
+    }
+   50%{
+    transform: translateY(30%);
+
+   }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+/* animation*/
+
+
+
